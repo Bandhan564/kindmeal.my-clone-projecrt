@@ -1,0 +1,152 @@
+#signUpContainer {
+  width: 100%;
+  display: flex;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+}
+.leftCont {
+  width: 280px;
+
+  margin-left: 10px;
+  margin-top: 35px;
+}
+.foodLover {
+  width: 100%;
+  height: 250px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  margin-bottom: 50px;
+}
+.foodLover > img {
+  margin: 40px 0px 0px 60px;
+  width: 160px;
+}
+.foodLover > p {
+  position: absolute;
+  font-size: 16px;
+  padding-left: 70px;
+}
+.whyKindMeal {
+  width: 100%;
+  height: 300px;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+.whyKindMeal > h2 {
+  padding-left: 40px;
+}
+.whyKindMeal > ul {
+  margin-right: 5px;
+  line-height: 20px;
+}
+.whyKindMeal > span {
+  cursor: pointer;
+  padding: 55px;
+}
+.whyKindMeal > span:hover {
+  text-decoration: underline;
+}
+.rightCont {
+  width: 70%;
+
+  margin-left: 60px;
+}
+.rightCont > h1 {
+  font-size: 30px;
+  padding-block: 5px;
+}
+h1 > span {
+  color: blue;
+  cursor: pointer;
+}
+span:hover {
+  text-decoration: underline;
+}
+.rightCont > div {
+  width: 780px;
+  margin-top: 30px;
+}
+.tableDiv {
+  width: 50px;
+}
+.first {
+  margin-left: 60px;
+  height: 30px;
+  font-size: 18px;
+}
+.last {
+  height: 30px;
+  font-size: 18px;
+}
+
+.input {
+  margin-left: 60px;
+  height: 35px;
+  width: 500px;
+  font-size: 12px;
+  border-radius: 5px;
+  border-color: lightgray;
+}
+.dob {
+  margin-left: 60px;
+  height: 30px;
+  border-radius: 5px;
+  border-color: lightgray;
+}
+.day {
+  width: 60px;
+  height: 30px;
+  border-radius: 5px;
+  border-color: lightgray;
+}
+.year {
+  width: 60px;
+  height: 30px;
+  border-radius: 5px;
+  border-color: lightgray;
+}
+.location {
+  height: 30px;
+  width: 200px;
+  margin-left: 60px;
+  font-size: 17px;
+  border-radius: 5px;
+  border-color: lightgray;
+}
+.gender {
+  margin-left: 55px;
+  font-size: 18px;
+}
+button {
+  margin-left: 60px;
+  height: 25px;
+}
+table {
+  font-size: 19px;
+}
+td {
+  padding-top: 30px;
+}
+.joinbtn {
+  width: 160px;
+  height: 40px;
+  margin-top: 40px;
+  border: 0px;
+  border-radius: 5px;
+  background-color: #e91616;
+  font-size: 25px;
+  color: white;
+  cursor: pointer;
+}
+.joinbtn:hover {
+  background-color: #b60a0a;
+}
+.check {
+  display: flex;
+  margin-left: 80px;
+  margin-top: 20px;
+  font-size: 18px;
+}
+.check > span {
+  color: black;
+}

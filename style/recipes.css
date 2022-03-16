@@ -1,0 +1,249 @@
+#box1 {
+  height: 160px;
+  padding: 30px;
+  background: #f0f0f0;
+  font-family: "Roboto", sans-serif;
+}
+#t1,
+#t2 {
+  font-size: 25px;
+  margin: 5px;
+  font-weight: normal;
+  color: rgb(78, 78, 78);
+}
+#t1 {
+  padding-right: 20px;
+}
+#t2 {
+  height: 25px;
+  border-left: 3px solid gray;
+  padding-left: 30px;
+  color: gray;
+}
+#b1 {
+  margin-left: 280px;
+  border-radius: 20px;
+  width: 80px;
+  height: 20px;
+  border: 0px;
+  color: white;
+}
+#b2 {
+  font-size: 15px;
+  margin-left: 35px;
+  border-radius: 5px;
+  width: 70px;
+  height: 20px;
+  background: #35619f;
+  color: white;
+  border: 0px;
+}
+.t3 {
+  font-size: 15px;
+}
+.c1 {
+  height: 35px;
+  border: transparent;
+  border-radius: 5px;
+}
+#sea1 {
+  width: 350px;
+}
+#sel1 {
+  margin-left: 40px;
+  width: 140px;
+  background: white;
+}
+#b3 {
+  margin-left: 40px;
+  width: 170px;
+  background: #f53838;
+  color: white;
+  font-weight: bold;
+}
+#b3:hover {
+  background: #b32020;
+}
+#b4 {
+  margin-left: 130px;
+  width: 170px;
+  background: #4bcd87;
+  color: white;
+  font-weight: bold;
+}
+#b4:hover {
+  background: #218851;
+}
+#box2 {
+  margin: 40px 30px;
+  display: grid;
+  grid-template-columns: repeat(6, 14%);
+  justify-content: space-around;
+  grid-gap: 10px 0px;
+}
+#box2 > button {
+  height: 36px;
+  border-radius: 5px;
+  border: transparent;
+  background: #f8f8f8;
+  color: rgb(100, 99, 99);
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+#box2 > button:hover {
+  background: #e0dfdf;
+}
+#box2 > button:nth-child(1) {
+  background: #4bcd87;
+  color: white;
+}
+#box4 {
+  margin: 20px 30px;
+}
+#box4 > img {
+  width: 100%;
+}
+#box3 {
+  margin: 20px 30px;
+}
+.box31 {
+  margin-bottom: 10px;
+}
+.box31 > p {
+  font-family: Roboto;
+  font-size: 15px;
+  margin-right: 8px;
+  display: inline;
+  color: #1877f2;
+}
+.box31 > p:nth-child(2) {
+  color: rgb(48, 47, 47);
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+.box31 > p:nth-child(1) {
+  color: rgb(48, 47, 47);
+}
+.box31 > button {
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  margin-left: 70%;
+  height: 30px;
+  border-radius: 5px;
+  border: 0px;
+}
+.box32 {
+  margin-top: 20px;
+  margin: 10px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  font-family: Roboto;
+}
+.box32 > div {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.bg1 {
+  height: 72%;
+  background-image: url("https://www.kindmeal.my/photos/recipe/1000/1000009-19416-l.jpg");
+  background-size: cover;
+  text-align: center;
+}
+.bg12 {
+  height: 86.2%;
+}
+.bg13 {
+  cursor: pointer;
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: normal;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+  box-sizing: border-box;
+  padding: 5px 10px 5px 10px;
+}
+.box321 {
+  height: 360px;
+  width: 340px;
+  border-radius: 10px;
+}
+.box3211 {
+  height: 14%;
+  display: flex;
+  padding: 2px;
+}
+.box3211 > button {
+  height: 35px;
+  width: 70px;
+  margin-top: 3%;
+  margin-left: 25%;
+  background: #f53838;
+  border: 0px;
+  border-radius: 5px;
+  color: white;
+}
+.box3211 > p {
+  text-decoration: none;
+  margin-left: 8%;
+  font-size: 16px;
+  color: gray;
+}
+.box3211 > img {
+  height: 50px;
+  border-radius: 50%;
+}
+.box3213 {
+  display: flex;
+  padding: 5px;
+}
+.box3213 > p {
+  font-size: 15px;
+  margin-right: 80px;
+  margin-left: 10px;
+  color: gray;
+}
+
+.box3213 > img {
+  margin-top: 11px;
+  height: 20px;
+}
+.box3213 > img:nth-child(2) {
+  margin-left: 20px;
+}
+#box5 {
+  margin: 20px 30px;
+  margin-bottom: 30px;
+}
+#box6 {
+  background: #2bb673;
+  height: 300px;
+  padding: 30px 100px;
+}
+.td1 {
+  width: 180px;
+  line-height: 16px;
+}
+.footertext1 {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+.footertext {
+  text-decoration: none;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+}
+.t5 {
+  width: 80%;
+  margin: auto;
+  margin-top: 40px;
+  text-align: center;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 10px;
+}

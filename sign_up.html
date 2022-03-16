@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>createAc</title>
+    <link rel="stylesheet" href="./style/sign_up.css">
+</head>
+
+<body>
+    <div class="login">
+        <form name='form-login' id="form">
+            <img src="https://www.kindmeal.my/images/logo-kindmeal.png" alt="" width="300px" height="70px">
+
+            <h1>Create New Account</h1>
+            <label for="name">Email</label>
+            <input type="email" id="name" placeholder="Username" required>
+            <label for="pw">Password</label>
+            <input type="password" id="pw" placeholder="Password" required>
+            <div id="passins">
+                <p>Password</p>
+                <ul class="helper-text">
+                    <li class="length">Must be at least 10 characters long.</li>
+                    <li class="lowercase">Must contain a lowercase letter.</li>
+                    <li class="uppercase">Must contain an uppercase letter.</li>
+                    <li class="special">Must contain a number or special character.</li>
+                </ul>
+            </div>
+            <input id="rgstr_btn" type="submit" value="Register">
+            <p class="form_text">
+                <a href="log_in.html" class="form_link">Back to Login</a>
+            </p>
+        </form>
+    </div>
+    <script src="./scripts/sign_up.js"></script>
+</body>
+</html>

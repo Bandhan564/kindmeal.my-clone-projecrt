@@ -1,0 +1,88 @@
+#pbox1 {
+  height: 300px;
+  background-image: url("https://www.kindmeal.my/photos/member/0/6-c.jpg");
+  margin-bottom: 50px;
+}
+
+#pbox22 {
+  display: flex;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  width: 95%;
+  height: 450px;
+  margin: auto;
+  border-radius: 10px;
+  margin-bottom: 50px;
+}
+
+#pbox21 {
+  width: 90%;
+  margin: auto;
+}
+
+#but222 {
+  background-color: blue;
+  border: 0;
+  border-radius: 5px;
+  color: cornsilk;
+  width: 100px;
+  height: 30px;
+}
+
+#inputc {
+  width: 400px;
+  height: 50px;
+  background-color: rgb(240, 240, 243);
+  border-radius: 7px;
+  border: 0;
+}
+
+#ingre {
+  width: 90%;
+  height: 400px;
+  margin: auto;
+  display: flex;
+}
+
+#img4 {
+  display: flex;
+  width: 90%;
+  height: 300px;
+  margin: auto;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+#img41 {
+  width: 24%;
+  height: 100%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#recipe {
+  text-align: center;
+}
+
+#rate2 {
+  width: 90%;
+  margin: auto;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+
+#but2 {
+  border: 0;
+  border-radius: 7px;
+  width: 130px;
+  height: 30px;
+  background-color: blueviolet;
+  color: cornsilk;
+}
+.imgleft {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+#ingre > div {
+  width: 50%;
+  font-size: 17px;
+}

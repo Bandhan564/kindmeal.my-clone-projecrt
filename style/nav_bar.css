@@ -1,0 +1,260 @@
+#boxn {
+  height: 45px;
+  background: #2bb673;
+}
+.boxntext {
+  text-align: center;
+  width: 140px;
+  padding: 10px;
+  font-size: 20px;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+#boxnclo>a {
+  color: rgb(238, 178, 28);
+}
+.boxnLinks {
+  color: white;
+  text-decoration: none;
+}
+.boxntext:hover {
+  background: #1a8150;
+  cursor: pointer;
+}
+#boxhtr {
+  font-family: "Roboto", sans-serif;
+}
+.boxhtd1 > img {
+  height: 75px;
+  margin-left: 30px;
+}
+.boxhtd2 > img {
+  margin-left: 200px;
+  height: 40px;
+}
+.boxhtd3 > img {
+  margin-left: 20px;
+  height: 40px;
+  margin-right: 0px;
+}
+.boxhtd4 > img {
+  margin-left: 20px;
+  height: 40px;
+  margin-right: 180px;
+}
+.boxhtd5,
+.boxhtd6 {
+  text-decoration: none;
+  font-size: 13px;
+  color: rgb(83, 83, 83);
+}
+.boxhtd6 {
+  height: 23px;
+  border-left: 1px solid gray;
+}
+#ntnh1 {
+  width: 80px;
+  height: 23px;
+  font-size: 14px;
+  font-weight: bold;
+  background: #35619f;
+  color: white;
+  border: transparent;
+  border-radius: 5px;
+  margin-left: 15px;
+}
+#ntnh1:hover {
+  cursor: pointer;
+}
+#ntnh2 {
+  width: 80px;
+  height: 23px;
+  font-size: 14px;
+  font-weight: bold;
+  background: #696969;
+  color: white;
+  border: transparent;
+  border-radius: 5px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+#ntnh2:hover {
+  cursor: pointer;
+}
+/*
+
+#boxn {
+  height: 40px;
+  background: #2bb673;
+}
+.boxntext {
+  text-align: center;
+  width: 100px;
+  padding: 9px;
+  font-size: 17px;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+#boxnclo {
+  color: rgb(238, 178, 28);
+}
+.boxnLinks {
+  color: white;
+  text-decoration: none;
+}
+.boxntext:hover {
+  background: #1a8150;
+  cursor: pointer;
+}
+#boxhtr {
+  font-family: "Roboto", sans-serif;
+}
+.boxhtd1 > img {
+  height: 75px;
+  margin-left: 30px;
+}
+.boxhtd2 > img {
+  margin-left: 150px;
+  height: 40px;
+}
+.boxhtd3 > img {
+  margin-left: 20px;
+  height: 40px;
+  margin-right: 0px;
+}
+.boxhtd4 > img {
+  margin-left: 20px;
+  height: 40px;
+  margin-right: 100px;
+}
+.boxhtd5,
+.boxhtd6 {
+  text-decoration: none;
+  font-size: 13px;
+  color: rgb(83, 83, 83);
+}
+.boxhtd6 {
+  height: 23px;
+  border-left: 1px solid gray;
+}
+#ntnh1 {
+  width: 80px;
+  height: 23px;
+  font-size: 14px;
+  font-weight: bold;
+  background: #35619f;
+  color: white;
+  border: transparent;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+#ntnh1:hover {
+  cursor: pointer;
+}
+#ntnh2 {
+  width: 80px;
+  height: 23px;
+  font-size: 14px;
+  font-weight: bold;
+  background: #696969;
+  color: white;
+  border: transparent;
+  border-radius: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+#ntnh2:hover {
+  cursor: pointer;
+}
+#boxhtr {
+  font-family: "Roboto", sans-serif;
+}
+.boxhtd1 > img {
+  height: 75px;
+  margin-left: 30px;
+}
+.boxhtd2 > img {
+  margin-left: 150px;
+  height: 40px;
+}
+.boxhtd3 > img {
+  margin-left: 20px;
+  height: 40px;
+  margin-right: 0px;
+}
+.boxhtd4 > img {
+  margin-left: 20px;
+  height: 40px;
+  margin-right: 100px;
+}
+.boxhtd5,
+.boxhtd6 {
+  text-decoration: none;
+  font-size: 13px;
+  color: rgb(83, 83, 83);
+}
+.boxhtd6 {
+  height: 23px;
+  border-left: 1px solid gray;
+}
+#ntnh1 {
+  width: 80px;
+  height: 23px;
+  font-size: 14px;
+  font-weight: bold;
+  background: #35619f;
+  color: white;
+  border: transparent;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+#ntnh1:hover {
+  cursor: pointer;
+}
+#ntnh2 {
+  width: 80px;
+  height: 23px;
+  font-size: 14px;
+  font-weight: bold;
+  background: #696969;
+  color: white;
+  border: transparent;
+  border-radius: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+#ntnh2:hover {
+  cursor: pointer;
+}
+#bodybox8 {
+  height: 590px;
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+#bodybox81 {
+  background: rgb(231, 229, 229);
+}
+#bodybox82 {
+  height: 57.5%;
+  background-color: #2bb673;
+}
+#bodybox821 {
+  display: flex;
+  justify-content: space-evenly;
+}
+#bodybox82 > div > div > p {
+  line-height: 5px;
+  font-size: 13px;
+}
+#bodybox82 > div > div > h3 {
+  font-size: 15px;
+}
+#bodybox822 {
+  text-align: center;
+  width: 90%;
+  margin: auto;
+  font-size: 13px;
+  line-height: 6px;
+}
+*/

@@ -1,0 +1,64 @@
+#container {
+  width: 65%;
+  margin: auto;
+  padding: 15px 30px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin-top: 20px;
+  font-family: "Roboto", sans-serif;
+}
+#container > h1 {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  line-height: 30px;
+  color: rgb(68, 67, 67);
+}
+button {
+  width: 200px;
+  height: 50px;
+  margin-top: 20px;
+  color: white;
+  border-radius: 10px;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  border: 0;
+}
+
+#twiter {
+  margin-left: 51px;
+  margin-right: 52px;
+  background-color: #18abed;
+}
+#facebook {
+  background-color: #3e62b4;
+}
+#google {
+  background-color: #dc3c32;
+}
+#buttonDiv > p {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+}
+#buttonDiv > ol > li {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+}
+#kind-mealApp-btn {
+  background-color: #04be5a;
+  height: 60px;
+  margin-left: 50px;
+  margin-right: 50px;
+  width: 300px;
+  font-weight: bold;
+  font-size: 22px;
+}
+#digi-reward-btn {
+  background-color: #f53838;
+  height: 60px;
+  width: 300px;
+  font-weight: bold;
+  font-size: 22px;
+}
+#dimg {
+  width: 100%;
+  height: 70%;
+}

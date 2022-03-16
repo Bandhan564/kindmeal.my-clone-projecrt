@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join Kind Meals</title>
+    <link rel="stylesheet" href="./style/join_kind_meal.css">
+    <link rel="stylesheet" href="./style/footer.css">
+    <link rel="stylesheet" href="./style/nav_bar.css">
+</head>
+<body>
+    <div id="boxh_div"></div>
+    <div id="boxn_div"></div>
+
+    <div id="signUpContainer">
+        <div class="leftCont">
+            <div class="foodLover">
+                <img src="https://www.kindmeal.my/images/join_normal.png"/>
+                <p>Food Lover Sign Up</p>
+            </div>
+            <div class="foodLover">
+                <img src="https://www.kindmeal.my/images/join_shop.png"/>
+                <p>Restaurant Sign Up</p>
+
+            </div>
+            <div class="whyKindMeal">
+                <h2>Why KindMeal</h2>
+                <ul>
+                    <li>Exclusive meat-free deals</li>
+                    <li>Share yummt food moments</li>
+                    <li>Meet friendly food lovers</li>
+                    <li>Discover cool restaurants</li>
+                    <li>Email updates on tasty deals</li>
+                    <li>Instant coupons & dining</li>
+                    <li>No upfront payment, booking or printing</li>
+                </ul>
+                <span>More about KindMeal »</span>
+            </div>
+        </div>
+        <br>
+        <div class="rightCont">
+            <h1>Food Lover? Sign Up Now or <span>Login With Facebook</span></h1>
+            <p>Discover tasty meat-free meals and dine instantly — no coupon payment, booking or printing is required.</p>
+            <div>KindMeal is a fun, exciting and cool new way for you to show your compassion towards animals. We collaborate with kind restaurants and cafes across the nation to bring you delicious meat-free foods that will not only help save precious animal lives, but improve your health and save your money at the same time!</div>
+            <div class="tableDiv">
+                <table>
+                    <tr>
+                        <td>Your Name</td>
+                        <td>
+                            <input type="text" placeholder="First Name" class="first">
+                            <input type="text" placeholder="Last Name" class="last">
+                        </td>
+                       
+                    </tr>
+
+                    <tr>
+                        <td>Email</td>
+                        <td><input type="mail" placeholder="Your email must be correct to receive activation email" class="input"></td>
+                    </tr>
+
+                    <tr>
+                        <td>Re-Enter Email</td>
+                        <td><input type="mail" class="input"></td>
+                    </tr>
+
+                    <tr>
+                        <td>Password</td>
+                        <td><input type="password" class="input"></td>
+                    </tr>
+
+                    <tr>
+                        <td>User Name</td>
+                        <td><input type="text" placeholder="Choose a cool username for your Personal Profile page, comments & reviews" class="input"></td>
+                    </tr>
+
+                    <tr>
+                        <td>Birth Date</td>
+                        <td>
+                            <select name="months" class="dob">
+                            <option value="">Month</option>
+                            <option value="jan">Jan</option>
+                            <option value="feb">Feb</option>
+                            <option value="march">Mar</option>
+                            <option value="april">Apr</option>
+                            <option value="may">May</option>
+                            <option value="june">Jun</option>
+                            <option value="july">Jul</option>
+                            <option value="august">Aug</option>
+                            <option value="september">Sep</option>
+                            <option value="october">Oct</option>
+                            <option value="november">Nov</option>
+                            <option value="december">Dec</option>
+                            </select>
+                            <select class="day">
+                                <option value="">Day</option>
+                            </select>
+                            <select class="year">
+                                <option value="">Year</option>
+                            </select>
+                        </td>      
+                    </tr>
+                    <tr>
+                        <td>Country</td>
+                        <td><select class="location">
+                            <option value="">Malaysia</option>
+                        </select></td>
+                    </tr>
+                    <tr>
+                        <td>State</td>
+                        <td><select class="location">
+                            <option value="">Select State</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Gender</td>
+                        <td>
+                            <div class="gender"><div><input type="radio"><label>Male</label></div<div><input type="radio"><label>Female</label></div></div>
+
+                        </td>
+                        
+                    </tr>
+                    <tr>
+                        <td>Profile Photo:</td>
+                        <td><button>Select Photo</button></td>
+                    </tr>
+                </table>
+                <div class="check">
+                    <div><input type="checkbox" class="checkbox"></div>
+                    <div> I agree to KindMeal.my's <span>Terms & Conditions</span></div>
+                </div>
+                
+                
+            </div>
+            
+            <button class="joinbtn">Join Now</button>
+        </div>
+       
+        
+           
+        
+    </div>
+    <div id="footer_div"></div>
+
+    <script type="module">
+        import {boxh, boxn, footer} from "./components/components.js";
+
+        document.getElementById("footer_div").innerHTML = footer();
+        document.getElementById("boxh_div").innerHTML = boxh();
+        document.getElementById("boxn_div").innerHTML = boxn();
+    </script>
+    </div>
+</body>
+</html>

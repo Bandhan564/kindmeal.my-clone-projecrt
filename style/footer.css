@@ -1,0 +1,28 @@
+#bodybox8 {
+  height: 390px;
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+#bodybox82 {
+  height: 100%;
+  background-color: #2bb673;
+}
+#bodybox821 {
+  display: flex;
+  justify-content: space-evenly;
+}
+#bodybox82 > div > div > p {
+  line-height: 5px;
+  font-size: 13px;
+}
+#bodybox82 > div > div > h3 {
+  font-size: 15px;
+}
+#bodybox822 {
+  text-align: center;
+  width: 90%;
+  margin: auto;
+  font-size: 13px;
+  line-height: 6px;
+}

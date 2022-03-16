@@ -1,0 +1,59 @@
+body{
+     font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+#bodybox9 {
+  background: rgb(243, 241, 241);
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+#helpleft {
+  margin: 20px;
+  width: 23%;
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+}
+#helpleft > div {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  border-radius: 8px;
+  text-align: center;
+  padding: 10px;
+  background: white;
+  margin-bottom: 30px;
+}
+#helpright {
+  margin: 20px;
+  width: 73%;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  background: white;
+  padding: 30px;
+}
+#helpright > p {
+  font-size: 14px;
+  color: rgb(95, 93, 93);
+}
+#helpright > h1 {
+  margin: 0px;
+  font-size: 35px;
+}
+#helpright > button {
+  margin: 20px;
+  width: 100px;
+  height: 30px;
+  border: 0px;
+  border-radius: 5px;
+}
+#tbut {
+  background: #1d9bf0;
+}
+#fbut {
+  background: #35619f;
+}
+#helpbottom {
+  display: flex;
+}
+#helpbottom > div > p {
+  font-size: 14px;
+  color: rgb(95, 93, 93);
+}

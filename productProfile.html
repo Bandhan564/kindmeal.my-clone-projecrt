@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product profile</title>
+    <link rel="stylesheet" href="./style/product_profile.css">
+    <link rel="stylesheet" href="./style/footer.css">
+    <link rel="stylesheet" href="./style/nav_bar.css">
+</head>
+
+<body>
+    <div id="boxh_div"></div>
+    <div id="boxn_div"></div>
+
+    <div id="pbox1">
+
+    </div>
+    <div id="pbox2">
+        <div id="pbox21">
+            <h1>German-Style Potato Pancakes</h1>
+        </div>
+        <div id="pbox22">
+            <div id="pbox221">
+                <img class="imgleft" src="https://www.kindmeal.my/photos/recipe/124/124815-19395-l.jpg" alt="" width="75%" height="100%">
+            </div>
+            <div id="pbox222">
+                <div>
+                    <h3 >Comment</h3>
+                    <input id="inputc" type="text" placeholder="Comment here">
+                </div>
+
+                <div>
+                    <h3>Rating</h3>
+                    <img src="https://www.kindmeal.my/images/icon_star_grey.png" alt=""><img src="https://www.kindmeal.my/images/icon_star_grey.png" alt=""><img src="https://www.kindmeal.my/images/icon_star_grey.png" alt=""><img src="https://www.kindmeal.my/images/icon_star_grey.png"
+                        alt=""><img src="https://www.kindmeal.my/images/icon_star_grey.png" alt="">
+                    <p>0 Votes</p>
+                </div>
+
+                <div id="flexbox">
+                    <button id="but222">Like 0</button>
+                    <p> Like this recipe & share with friends!</p>
+                    <img src="https://www.kindmeal.my/images/share_facebook.png" alt="">&nbsp;&nbsp;<img src="https://www.kindmeal.my/images/share_twitter.png" alt="">&nbsp;&nbsp;<img src="https://www.kindmeal.my/images/share_google.png" alt="">
+                </div>
+            </div>
+        </div>
+
+
+        <div id="ingre">
+            <div id="ingre1">
+                <h2>Secret Ingredients</h2>
+                <ul>
+                    <li>3 lbs potatoes, peeled</li>
+                    <li>1 large onion, quartered</li>
+                    <li>3 eggs, beaten</li>
+                    <li>1/2 cup all-purpose flour</li>
+                    <li>1 teaspoon baking powder</li>
+                    <li>1 teaspoon salt</li>
+                    <li>1 tablespoon parsley</li>
+                </ul>
+            </div>
+            <div id="ingre2">
+                <h2>Directions</h2>
+                <ol>
+                    <li>Keep potatoes covered with cold water until ready to grate in the food processor.</li>
+                    <li>Fit the medium shredding blade into food processor and shred potatoes and onion.</li>
+                    <li>Dry potatoes and onion between sheets of paper towel.</li>
+                    <li>In a large bowl combine potato mixture with eggs, flour, baking powder, parsley and salt. In a large skillet heat 1/8 inch vegetable oil until hot. Pour in 1/3 cup potato mixture, flattening with the back of a wooden spoon, and fry
+                        until crisp and golden brown on both sides, about 3 minutes per s ide. Drain on paper towel and keep warm in a 100 degree oven.</li>
+                    <li>1 teaspoon baking powder</li>
+                    <li>Serve with applesauce. - - - - - - - - - - - - - - - - - -</li>
+                </ol>
+            </div>
+        </div>
+        <div>
+            <h2 id="recipe"> More Photos Of This Recipe</h2>
+            <div id="img4">
+                <img id="img41" src="https://www.kindmeal.my/photos/recipe/124/124815-19396-s.jpg" alt="">
+                <img id="img41" src="https://www.kindmeal.my/photos/recipe/124/124815-19397-s.jpg" alt="">
+                <img id="img41" src="https://www.kindmeal.my/photos/recipe/124/124815-19398-s.jpg" alt="">
+                <img id="img41" src="https://www.kindmeal.my/photos/recipe/124/124815-19399-s.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <div id="rate2">
+        <div>
+            <h2>Rate This Recipe</h2>
+            <p>What do you think of this recipe?</p>
+            <img src="https://www.kindmeal.my/images/icon_star_grey.png" alt=""><img src="https://www.kindmeal.my/images/icon_star_grey.png" alt=""><img src="https://www.kindmeal.my/images/icon_star_grey.png" alt=""><img src="https://www.kindmeal.my/images/icon_star_grey.png"
+                alt=""><img src="https://www.kindmeal.my/images/icon_star_grey.png" alt="">
+            <p>No Rating</p>
+            <button id="but2">Submit Rating</button>
+        </div>
+        <div>
+            <h2>Comments</h2>
+            <div>
+                <p>Be the first to comment on this delicious recipe </p>
+                <p>No Comments</p>
+                <input id="inputc" type="text" placeholder="Comment here"><br><br>
+                <button id="but2">Comment</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="footer_div"></div>
+
+    <script type="module">
+        import {boxh, boxn, footer} from "./components/components.js";
+
+        document.getElementById("footer_div").innerHTML = footer();
+        document.getElementById("boxh_div").innerHTML = boxh();
+        document.getElementById("boxn_div").innerHTML = boxn();
+    </script>
+</body>
+
+</html>
