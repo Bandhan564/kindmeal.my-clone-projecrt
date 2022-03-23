@@ -18,11 +18,11 @@ Login and Create Account :
 User can Create Account and also Login to the account. We used some JavaScript for Sign-up and Login Functionalities. 
 
 Contributors :
-Amaresh Barik : https://github.com/amareshcoding
+Bandhan Jayasingh : https://github.com/Bandhan564
 
 Rammana Bandapu
 
-Bandhan Jayashing
+Amaresh Barik
 
 Mukesh Chuhan
 
